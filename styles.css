@@ -53,8 +53,24 @@ body {
 }
 
 .btn-black{
-  width: 150px;
+  width: 100px;
+  height:75px;
   display:inline-block;
   border:5px solid;
-  border-radius:20%;
-  background-color:white}
+  border-radius:0px;
+  background-color:white;
+border-radius: 20px;
+}
+  
+
+.ins{
+color:white;
+font-weight: lighter;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hd{
+  color:white;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}

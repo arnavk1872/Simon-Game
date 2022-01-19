@@ -68,6 +68,7 @@ setTimeout(function () {
 },100);
 }
 
+  
 function checkAnswer(currentLevel){
   if(gamePattern[currentLevel]===userClickedPattern[currentLevel]){
   
@@ -89,14 +90,10 @@ function checkAnswer(currentLevel){
       $("body").removeClass("game-over");
     },200);
     
-    $("#level-title").text("Game Over");
+    $("#level-title").text("Refresh To PLay again !");
+    HTMLFormElement.reset();
     
-    startOver();
+
 }
 }
 
-function startOver(){
-level=0;
-gamePattern=[];
-started=false;
-}
